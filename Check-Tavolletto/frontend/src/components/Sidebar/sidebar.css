@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+.viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar-cont{
+  position: absolute;
+  top: 0px;
+}
+
+.sidebar {
+  top: 0px;
+  z-index: 1000;
+  position: fixed;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  margin-left: 250px;
+  overflow-y: auto;
+  background:#ffe38f;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn-tabs{
+  font-weight: 500;
+  color: black;
+  padding-left: 95px;
+  padding-top: 10px !important;
+ text-align: left !important;
+  background: #FF8A56;
+  border: none !important;
+  height: 45px;
+width: 250px;
+margin-left: -100px !important;
+margin-top: 50px !important;
+border-radius: 20px !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.btn-tabs:hover{
+  transform:scaleX(1.1);
+}
+.btn-active{
+  background-color: #FF4F00;
+}
+
+.logo{
+  margin-top: 10px;
+  margin-bottom:60px;
+  width: 200px;    
+}
+ 
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+#check{
+  display: none;
+}
+label #btn-bars,#cancel{
+  display: none;
+}
+@media (max-width:460px){
+  .viewport{
+    padding-left: 0px;
+  }
+  label #btn-bars,#cancel{
+      display:inline-block;
+  }
+  .sidebar{
+      top: 0px;
+      margin-left: -250px;
+  }
+  #btn-bars, #cancel{
+      position: absolute;
+      cursor: pointer;
+  }
+  label #btn-bars{
+      z-index: 1051;
+      left: 20px;
+      top: 15px;
+      font-size: 25px;
+      color: white;
+      background-color: #FFBF00;
+      padding: 2px 6px;
+      transition: all .4s;
+  }
+  label #cancel{
+      z-index: 1001;
+      left: -240px;
+      top: 3px ;
+      border-radius: 20px;
+      font-size: 16px;
+      color: white ;
+      background: #FF8A56;
+      padding: 4px 5px;
+      transition: all .4s ease;
+  }
+  #check:checked ~ .sidebar{
+      margin-left: 250px;
+  }
+  
+  #check:checked ~ label #btn-bars{
+      left: 250px;
+      opacity: 0;
+      pointer-events: none;
+  }
+  #check:checked ~ label #cancel{
+      left: 220px;
+      position: fixed;
+  }
+}

@@ -1,0 +1,49 @@
+body {
+    background: #eee
+}
+.resturant-img{
+    width: 100px;
+    height: 100px;
+}
+.btn-all{
+    width: 120px;
+    background: #FFBF00;
+    border-radius: 5px;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+.card-mang-style{
+    border-radius:  1em
+}
+.card-row{
+    justify-content :center;
+}
+@media(max-width:700px){
+    .img-cont{
+        text-align: center;
+    }
+    .card-row{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .resturant-body{
+        text-align: center !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

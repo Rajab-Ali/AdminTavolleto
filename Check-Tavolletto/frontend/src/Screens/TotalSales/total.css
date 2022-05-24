@@ -1,0 +1,30 @@
+.sales-main-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.calender-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.calender{
+    width: 35%;
+    border-radius: 10px;
+    z-index: 1000;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    box-shadow: 2px 2px 10px 0px rgb(0, 0, 0,0.5);
+}
+.react-calender{
+    border-radius: 10px;
+    padding: 5px;
+}
+.graph-detail-cont{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    height: 400px;
+}

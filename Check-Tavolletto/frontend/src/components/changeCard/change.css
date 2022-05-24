@@ -1,0 +1,29 @@
+.rest-change-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.rest-change-cont h4{
+    flex: 0.2;
+}
+.change-info{
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.change-info p{
+    text-align: left;
+}
+.change-cont-email{
+    color: #FF8A56;
+    font-size: 14px;
+    font-weight: normal;
+}
+@media (max-width:870px){
+    .rest-change-cont{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,28 @@
+.daterangepicker {
+    left: 20px !important;
+  }
+  
+  /* Start Date */
+  .daterangepicker td.start-date,
+  .daterangepicker td.start-date.active {
+    background-color: #dc3545;
+  }
+  
+  /* End Date */
+  .daterangepicker td.end-date,
+  .daterangepicker td.end-date.active {
+    background-color: #dc3545;
+  }
+  
+  /* Today (Initial Color) */
+  .daterangepicker td.today.active {
+    background-color: #28a745;
+  }
+  
+
+  .show-date{
+      color: #FF8A56;
+      margin-top: 20px;
+      margin-left: 3px;
+    
+  }

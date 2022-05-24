@@ -1,0 +1,11 @@
+.region-cont{
+    display: flex ;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.region-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

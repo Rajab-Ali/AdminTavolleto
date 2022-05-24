@@ -1,0 +1,53 @@
+.menue-detail{
+    display: flex;
+}
+.card-menu-style{
+    border-radius:  1em;
+    
+}
+.modal-dialog-discription{
+    width: 80%;
+}
+.modal-discription{
+    background-color: white !important;
+}
+.modal-discription-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 !important;
+}
+.discription-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh ;
+    padding: 0!important;
+    border-radius: 0px;
+    border: none;
+}
+.discription-text-cont{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    padding: 10px;
+}
+.discription-text-cont p{
+    width: 100% !important;
+    margin: 10px; 
+    color: black !important;
+}
+.modal-heading-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width:768px){
+    .modal-dialog-discription{
+        width: 80%;
+        margin: 30px auto !important;
+    }
+}

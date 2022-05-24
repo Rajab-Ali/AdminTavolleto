@@ -1,0 +1,47 @@
+.profile-img-update-cont{
+    width: 150px !important;
+    height: 150px !important;
+}
+.update-img{
+    width: 100% !important;
+    height: 100% !important;
+}
+.add-cam-btn{
+    padding: 3px !important;
+    top: 120px !important;
+    left: 130px !important;
+    border-radius: 50% 30% 0 0 !important;
+    width: 45px !important;
+    border: none;
+    background-color: #eee;
+}
+.form-update-profile{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.update-group{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-start;
+}
+.update-group label{
+    margin-left: 10px;
+}
+.update-input{
+    background-color: #FEF7F4;
+    border: 2px solid #E6E6E6;
+    height: 50px;
+    border-radius: 15px;
+}
+.update{
+    margin-top: 10px;
+    border-radius: 15px;
+    font-weight: 500;
+}
+.update:hover{
+    border: none !important;
+}
+.update:focus-visible{
+    outline: none;
+}

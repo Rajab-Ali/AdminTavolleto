@@ -1,0 +1,50 @@
+.table-cont{
+  overflow-x: scroll;
+}
+
+.package-table {
+  border: 2px solid #7a7472;
+  border-collapse: collapse;
+  table-layout:auto;
+  width: 100%;
+}
+
+.package-table tr {
+  border: 1px solid #464646;
+  padding: .35em;
+}
+.app-ad-head{
+  background-color:#fde3b1;
+  color: grey;
+  text-align: center;
+}
+.ad-name-head,
+.package-table td {
+  padding: .825em;
+  text-align: center;
+}
+.ad-name-head {
+  border: 1px solid #464646;
+  background: #ffd900;
+  color: #FF8A56;
+  font-size: 16px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.row-title{
+  background-color: white !important;
+  color: grey !important;
+}
+
+.package-table td {
+  border: 1px solid #464646;
+  background-color: #feb271;
+  color: white;
+  font-weight:bold;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+

@@ -1,0 +1,7 @@
+.report-cont{
+    flex-direction: column !important;
+}
+.report-cont-button{
+    justify-content: flex-start;
+    align-items: flex-start !important;
+}

@@ -1,0 +1,8 @@
+.card-style{
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.card-style:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,37 @@
+ .profile-img-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .profile-img{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     border: 4px solid #FFBF00;
+ }
+ .detail-cont{
+     width: 100%;
+ }
+ .earning-cont{
+     margin-top: 50px !important;
+     width: 40%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+ }
+ .total-today-earning{
+     width: 100%;
+ }
+ .total-today-earning h4{
+     text-align: center;
+     margin-bottom: 1rem;
+ }
+ .value-cont{
+     height: 35px;
+     background-color: #fff;
+     color: black;
+     border-radius: 10px;
+    justify-content: center;
+
+ }

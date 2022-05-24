@@ -1,0 +1,37 @@
+.membership-cont{
+    color: white;
+    background-color: #FF8A56;
+    font-size: 15px;
+    word-spacing: 1px;
+    line-height: 1.5;
+    border-radius: 15px;
+}
+.membership-cont span{
+    text-transform: lowercase;
+}
+.bill-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bill-cont-rest-img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.bill-cont-rest-info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:678px){
+    .bill-cont{
+        padding: 1rem 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}

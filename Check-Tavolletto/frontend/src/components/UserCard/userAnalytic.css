@@ -1,0 +1,19 @@
+.heading-cont{
+    text-align: center;
+}
+.value-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.line-cont{
+    width: 21px;
+    height: 5px;
+    background-color: rgba(45, 38, 38, 0.648);
+    border-radius: 10px;
+    margin: 0;
+}
+.tag-head{
+    text-align: center !important;
+}

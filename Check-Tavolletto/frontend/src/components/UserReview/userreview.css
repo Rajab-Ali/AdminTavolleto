@@ -1,0 +1,55 @@
+.comment-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.profile-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.user-profile{
+    margin: 2px 10px;
+    border-radius: 50%;
+}
+.user-profile img{
+    width: 60px;
+    height: 60px;
+} 
+.comment-part{
+    display: flex;
+    flex-direction: column;
+}
+.username-cont{
+    margin: 2px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.comment-cont{
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.comment-cont p{
+    flex: 1;
+    line-break: auto;
+    padding: 2px;
+    font-size: 12px;
+}
+.review-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+@media(max-width:768px){
+    .username-cont{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

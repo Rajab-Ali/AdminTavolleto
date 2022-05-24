@@ -1,0 +1,29 @@
+.point-text{
+    color: #FF8A56;
+    font-size: 14px;
+}
+.restaurant-reserved-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+.profile-booked-cont{
+    display: flex;
+    flex-direction: row;
+}
+.info-cont{
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.block-button-cont{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}

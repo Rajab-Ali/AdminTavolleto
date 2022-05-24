@@ -1,0 +1,70 @@
+.btn-blog{
+    background-color: #FF4F00;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    
+}
+body {
+    background: #eee
+}
+.blog-img{
+    width: 200px;
+    height: 120px;
+}
+
+.card-blog-style{
+    border-radius:  1em;
+    background-color: #FFBF00;
+
+    
+}
+
+.delete-edit-button-cont{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.delete-edit-button-cont:nth-child(1)
+{
+    margin-top: 0;
+    margin-bottom: 20px
+}
+
+.card-row{
+    justify-content :center;
+}
+@media(max-width:700px){
+    .img-cont{
+        text-align: center;
+    }
+    .card-row{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .resturant-body{
+        text-align: center !important;
+    }
+    .align-items-end{
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

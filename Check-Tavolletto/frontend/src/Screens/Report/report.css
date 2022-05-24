@@ -1,0 +1,11 @@
+.reports-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.reply-email-cont{
+    flex: 0.6;
+    display: flex;
+    justify-content: flex-end;
+}

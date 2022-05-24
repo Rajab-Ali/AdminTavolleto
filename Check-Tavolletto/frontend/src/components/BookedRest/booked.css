@@ -1,0 +1,29 @@
+.booked-rest-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0px !important;
+}
+.rest-img{
+    width: 100px;
+    height:100px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+.rest-booked-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.rest-booked-info h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.date-visited{
+    display: flex;
+    align-items: flex-end;
+}
+.date-visited p{
+    white-space: nowrap;
+}

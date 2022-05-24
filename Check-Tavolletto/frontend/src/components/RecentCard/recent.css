@@ -1,0 +1,25 @@
+.btn-div{
+    display: flex;
+}
+.btn-act-cont{
+    border-radius: 4px;
+    box-shadow: 2px 1px 4px 1px rgba(0, 0, 0, 0.25);
+    background-color: #FF4F00;
+}
+
+.btn-activity{
+    border: none;
+    background: transparent;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 5px auto;
+    height: 50px;
+}
+.btn-activity:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    color: white;
+}

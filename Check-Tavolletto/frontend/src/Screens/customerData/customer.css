@@ -1,0 +1,51 @@
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown-menu{
+    top: 100%!important;
+    left: auto !important;
+    right: 0 !important;
+}
+.dropdown-toggle:focus{
+    outline: none;
+    border:none;
+    box-shadow: none;
+}
+.table-view{
+    position: relative;
+    margin-top: 100px;
+}
+.dataTables_wrapper{
+    /* border: 4px solid blueviolet; */
+    margin-top: 100px;
+    padding: 1rem;
+}
+.dataTables_length.bs-select{
+    vertical-align: middle;
+}
+.dataTables_length.bs-select label {
+    display: flex;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: normal;
+    align-items: center;
+}
+.custom-select{
+    height: 30px !important;
+    width: 50px !important;
+    border:1px solid #ccc;
+}
+
+.mdb-datatable-filter input{
+    border: 1px solid #ccc;
+}
+.table .dataTable{
+    padding-top: 2rem !important;
+}
+.pagination{
+    display: flex !important;
+    justify-content: flex-end;
+}

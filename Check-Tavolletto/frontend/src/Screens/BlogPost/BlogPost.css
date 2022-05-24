@@ -1,0 +1,23 @@
+.post-blog-cont{
+    float: none;
+}
+.upload-img-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.upload-img-prop{
+    width: 370px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-upload{
+    background-color: rgba(128, 119, 119, 0.438);
+    border: none !important;
+}

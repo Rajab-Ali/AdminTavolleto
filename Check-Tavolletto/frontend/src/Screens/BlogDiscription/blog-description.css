@@ -1,0 +1,22 @@
+.blog-description-img{
+    border-radius: 26px;
+    height: 500px;
+    transition: opacity 500ms ease;
+}
+.blog-text p{
+    justify-content: center;
+}
+.btn-youtube{
+    z-index: 3;
+    height: 55px;
+    width: 80px;
+    position: absolute;
+    left: 60%;
+    top: 50%; 
+    background-color: red;
+    color: white;
+    transition: display 400ms ease-in-out;
+}
+.btn-youtube i{
+    font-size: 36px;
+}
